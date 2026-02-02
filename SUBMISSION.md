@@ -12,15 +12,14 @@
 
 **1. What is the MD5 hash of your name?**
 
-[Your answer here]
-
+a53d8b0dbd48439b5c5e235fa8e78829 
 **2. Run the command again with the exact same name. Did the hash change? Why or why not?**
 
-[Your answer here]
+No the hash did not change becasue the input is the same 
 
 **3. Change one letter of your name (like capitalizing it) and run again. How different is the hash?**
 
-[Your answer here]
+The hash is very different there are no similarities at all.
 
 ---
 
@@ -28,11 +27,11 @@
 
 **4. What is the md5sum of the file you created?**
 
-[Your answer here]
+a53d8b0dbd48439b5c5e235fa8e78829 
 
 **5. In your own words, explain what a hash collision is and why it's a security concern.**
 
-[Your answer here]
+A hash collsion is when 2 different inputs taht have the same hash output.
 
 ---
 
@@ -42,11 +41,12 @@
 
 **6. Why would a system have users with `*` instead of password hashes?**
 
-[Your answer here]
+This means that there is no password hash that exsits becasue * cannot be hashed, so password login is impossible.
 
 **7. What do the different parts of karl's password line mean? (Hint: Research the format of `/etc/shadow` entries)**
 
-[Your answer here]
+User- karl, $y - yescrypt hashing algorithm, pass change: day 19255 since 1970, expires after 99999 days, warning- 7 days before expiration
+
 
 ---
 
@@ -54,15 +54,15 @@
 
 **8. Why don't systems store passwords in plaintext?**
 
-[Your answer here]
+Systems dont store passwords in plain text becasue it will make user accounts and systems really easy to invade
 
 **9. What is a "salt" in password hashing and why is it used?**
 
-[Your answer here]
+The salt is a random data added to a password before hashing, it is used because it prevents same passwords from having the same hashes.
 
 **10. Research the `yescrypt` algorithm (the `$y$` prefix). Why is it considered secure?**
 
-[Your answer here]
+It is considered secure becasue it causes each password attempt to use large amounts of memory space and slows down cracking softwares and 
 
 ---
 
@@ -72,15 +72,14 @@
 
 **11. What was karl's password?**
 
-[Your answer here]
-
+karl:test:19255:0:99999:7:::
 **12. How long did it take John to crack it?**
 
-[Your answer here]
+0:00:00:03
 
 **13. Why was this password easy to crack?**
 
-[Your answer here]
+I think that karls password was easy to crack becasue it used his name and didnt have enough randomness in it or speacial characters.
 
 ---
 
@@ -88,11 +87,11 @@
 
 **14. Does the hash match? (Yes/No)**
 
-[Your answer here]
+Yes
 
 **15. What does this tell you about how Linux verifies passwords during login?**
 
-[Your answer here]
+it checks passwords by comparing hashs instead of real passwords.
 
 ---
 
@@ -100,15 +99,17 @@
 
 **16. Based on this lab, what makes a password "strong"?**
 
-[Your answer here]
+A strong pass word should have a minimum of 8 characters with at least one speacialized character and show have an uppercase, these all mean that there should be lots of randomness in your password
 
 **17. Why do websites now require passwords with numbers, symbols, and mixed case?**
 
-[Your answer here]
+To increase the randomness
 
 **18. If you were designing a password policy for a company, what rules would you set? (At least 3 specific rules)**
 
-[Your answer here]
+1. password should be at least 10 characters long
+2. password should have a minimum of 2 speacialized characters
+3. passwords should have at least 3-4 digits in them
 
 ---
 
@@ -138,5 +139,5 @@ By submitting this lab, I affirm that:
 - I did not use AI tools to generate my responses
 - I understand the concepts and can explain them in my own words
 
-**Signature (type your name):** [Your Name]  
-**Date:** [Date]
+**Signature (type your name):** Alim   
+**Date:** 2/1/2026
